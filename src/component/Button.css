@@ -1,0 +1,16 @@
+.button button{
+    height: 7vh;
+    width: 96%;
+    /* padding: 94% 5.6 vh ; */
+    margin-top: 13px;
+    margin-bottom: 5px;
+    background-color: #fa326ef6;
+    border-radius: 2px;
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+   } 
+
+

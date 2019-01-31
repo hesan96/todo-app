@@ -1,0 +1,30 @@
+label {
+  float: left;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: 14px;
+  margin-left: 10px;
+  
+ 
+  margin-bottom: 5px;
+}
+.size {
+  border-radius: 4px;
+  height: 7vh;
+  width: 90%;
+  padding-left: 15px;
+  margin-bottom: 5px;
+  border-style: solid;
+  border-color: lightgrey;
+  font-size: 15px;
+}
+
+.errorMsg {
+  color: #cc0000;
+   text-align: left;
+  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  margin-top: -3px;
+  margin-left: 9px;
+}
