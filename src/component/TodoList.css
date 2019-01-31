@@ -1,0 +1,71 @@
+.listrow{
+    background-color:lightgray;
+    padding: 1px 1px;
+    float: left;
+    width: 80vw;
+    overflow: hidden;
+    height: 6vh;
+    margin-left: 10vw;
+    text-align: justify;
+    cursor: pointer;
+}
+.listrow:nth-child(odd)
+{
+    background-color:white;
+}
+
+
+.list{
+  margin-top: 1vh;
+  padding-left: 20px;
+}
+
+
+
+.listrow.selected {
+    
+    background-color:lightslategray;
+    height: 6vh;
+    text-decoration-line: line-through;
+    color: white;
+    padding: 1px 1px;
+    float: left;
+    width: 80vw;
+    overflow: hidden;
+    height: 6vh;
+   margin-left: 10vw;
+    text-align:justify; 
+    cursor: pointer;
+    
+  }
+  .listrow.selected .list {
+    padding-left: 10vw;
+}
+  
+  .tick{
+
+    height: 20px;
+    width: 25px;
+    margin-top: 10px;
+   padding-left:2vw;
+    position: absolute;
+  }
+  
+
+
+.close
+{
+    cursor: pointer;
+    position: absolute;
+    padding: .5px .5px;
+    float: left;
+    margin-top: -9px;
+}
+
+.img{
+   height: 20px;
+   width: 25px;
+   margin-left: 70vw;
+}
+    
+

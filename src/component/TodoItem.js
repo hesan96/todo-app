@@ -5,10 +5,9 @@ import TodoList from './TodoList'
 import TodoData from './TodoData'
 
 class TodoItem extends Component {
-  constructor () {
-    super()
+  
 
-    this.state = {
+    state = {
       lists: [
         {
           name: 'apple',
@@ -28,7 +27,7 @@ class TodoItem extends Component {
         }
       ]
     }
-  }
+  
 
   deleteList = index => {
     const lists = Object.assign([], this.state.lists)
