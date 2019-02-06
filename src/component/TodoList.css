@@ -4,14 +4,15 @@
     float: left;
     width: 80vw;
     overflow: hidden;
-    height: 6vh;
-    margin-left: 10vw;
+    height: 8vh;
+    margin-left: 7.5vw;
     text-align: justify;
-    cursor: pointer;
+    cursor: move;
 }
 .listrow:nth-child(odd)
 {
     background-color:white;
+    position: relative;
 }
 
 
@@ -33,7 +34,7 @@
     width: 80vw;
     overflow: hidden;
     height: 6vh;
-   margin-left: 10vw;
+   margin-left: 7.5vw;
     text-align:justify; 
     cursor: pointer;
     
@@ -59,7 +60,7 @@
     position: absolute;
     padding: .5px .5px;
     float: left;
-    margin-top: -9px;
+    margin-top: -3px;
 }
 
 .img{
